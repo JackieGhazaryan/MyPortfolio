@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+a{
+    text-decoration: none; 
+}
+li{
+    list-style: none; 
+}
+header{
+    width: 100%;
+    background: #000;
+    display: flex;
+}
+.header__logo{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    padding-left: 12%;
+}
+nav{
+     margin-top: 56px;
+     margin-left: 40%;
+ }
+ .topnav a{
+     color: aliceblue;
+     text-align: center;
+     padding: 12px 16px;
+     font-size: 14px;
+     font-weight: bold;
+ }
+ .topnav a:hover{
+     border-bottom: 3px solid #fcac45
+ }
+.topnav .icon{
+    display: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .main__welcome{
+    background-color: #050505;
+    text-align: center;
+    padding: 200px 0 300px 0;
+}
+main .main__welcome p{
+    color: #157A6E;
+    font-size: 20px;
+}
+main .main__welcome h1{
+    color: #157A6E;
+    font-size: 44px;
+}
+.myportfolio{
+    color: #FF715B;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+main .main__about{
+    text-align: center;
+    background-color: #F0F0C9;
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+.about__right{
+    margin-left: 110px;
+}
+.about__right h1{
+    color: #157A6E;
+    display: inline-block;
+    border-bottom: 3px solid #FF715B;
+    padding-bottom: 20px;
+}
+.about__right p{
+    text-indent: 15px;
+    text-align: left;
+    margin: 30px 0 50px 0;
+    padding: 0 60px 0 60px;
+    color: #202C39;
+}
+.mw-100{
+    padding-left: -50px;
+    min-width: 100%;
+    width: 120%;
+    height: 96%;
+    border: 5px inset #fff; 
+}
+
+.respons {
+    display: none;
+}
+.respons span{
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+}
+.respons1{
+    display: none;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+
+.main__skils{
+    background: #80D39B;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #F0F0C9;
+}
+.main__skils h1{
+    text-align: center;
+    font-size: 44px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #FF715B;
+}
+.position{
+    text-align: center;
+    padding-top: 25px;
+}
+.skil2{
+    padding-top: 100px;
+}
+.position1{
+    margin-top: 25px;
+}
+
+.rick{
+    border-style: inset;
+    width: 23%;
+    height: 23%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.bobmarley{
+    border-style: inset;
+    width: 23%;
+    height: 23%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.thomasshelbi{
+    border-style: inset;
+    width: 23%;
+    height: 23%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.einstein{
+    width: 23%;
+    height: 23%;
+    border-style: inset;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.poster1{
+    width: 20%;
+    height: 20%;
+    border-style: inset;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.poster2{
+    width: 20%;
+    height: 20%;
+    border-style: inset;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.poster3{
+    width: 20%;
+    height: 20%;
+    border-style: inset;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.main__contacts{
+    background: #F0F0C9;
+    color: #157A6E;
+}
+.main__contacts h1{
+    text-align: center;
+    border-bottom: 3px solid #FF715B;
+    padding: 100px 0 25px 0;
+}
+.main__contacts p{
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.contact__cards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+.contact__card{
+    border-style: double;
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+.mobile{
+    width: 25%;
+    height: 25%;
+    padding-bottom: 15px;
+}
+.gmail{
+    width: 25%;
+    height: 25%;
+    padding-bottom: 15px;
+}
+.instagram{
+    width: 25%;
+    height: 25%;
+    padding-bottom: 15px;
+}
+.facebook{
+    width: 25%;
+    height: 25%;
+    padding-bottom: 15px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    nav{
+        margin-left: 20%
+    }
+}
+
+@media only screen and (max-width: 1105px) {
+    nav{
+        margin-left: 10%
+    }
+}
+
+
+@media only screen and (max-width: 1010px) {
+    .topnav {
+        display: none
+    }
+    .respons {
+        display: block;
+    }
+    .topnav a{
+        display: none;
+     }
+     .topnav a.icon{
+         float: right; 
+         margin-top: -17px;
+         display: block;
+         color: #F7DBA7;
+         font-size: 25px;
+     }
+     nav{
+         width: 100%;
+     }
+     .topnav.responsive{
+         position: relative;
+         top: 50px;
+         left: -200px;
+     }
+     header .topnav.responsive{
+         height: 340px;
+     }
+     .topnav.responsive a.icon{
+         position: absolute;
+         top: -50px;
+         right: -200px;
+     }
+     .topnav.responsive a{
+         float: none;
+         display: block;
+         text-align: left;
+     }
+     main .main__welcome{
+        padding: 50px 0 50px 0;
+     }
+     main .main__welcome p{
+        font-size: 14px;
+     }
+     main .main__welcome h1{
+        font-size: 25px;
+     }
+     .mw-100{
+        max-width: 100%;
+    }
+    .main__about{
+        flex-direction: column;
+    }
+    .about__right{
+        text-align: center;
+        margin-left: 0;
+    }
+    .about__right h1{
+        margin-top: 10px;
+       font-size: 20px;
+    }
+
+    .contact__cards{
+        grid-template-columns: auto;
+    }
+    .mobile{
+        width: 6%;
+        height: 20%;
+        padding-bottom: 15px;
+    }
+    .gmail{
+        width: 6%;
+        height: 20%;
+        padding-bottom: 15px;
+    }
+    .instagram{
+        width: 6%;
+        height: 20%;
+        padding-bottom: 15px;
+    }
+    .facebook{
+        width: 6%;
+        height: 20%;
+        padding-bottom: 15px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
